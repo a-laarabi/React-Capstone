@@ -1,15 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import '../../styles/GameItem.css';
 
 const GamesItem = (props) => {
   const {
     id, title, released, image, gener,
   } = props;
   return (
-    <NavLink to={`/details/${id}`}>
+    <NavLink className="gameItem" to={`/details/${id}`}>
       <img src={image} alt={title} />
-      <div>
+      <div className="cardBack" />
+      <div className="cardInfo">
         <ul key={id}>
           <li>{title}</li>
           <li>{gener}</li>
