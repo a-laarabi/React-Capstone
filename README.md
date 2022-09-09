@@ -17,7 +17,7 @@ This website is a web application that provide the data for the newest game in t
 
 ## Live Demo
 
-[Demo]()
+[Demo](https://lighthearted-quokka-21d8f2.netlify.app/)
 
 ## Description Video
 
