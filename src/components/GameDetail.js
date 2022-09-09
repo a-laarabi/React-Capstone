@@ -25,13 +25,13 @@ const GameDetail = () => {
   }
 
   return (
-    <div>
+    <div className="gameDetail">
       { !loading ? (
         <>
 
           <div>
             <Header />
-            <div>
+            <div className="detailInfo">
               <ul key={game.id}>
                 <li>{game.title}</li>
                 <li>{game.gener}</li>
@@ -39,8 +39,9 @@ const GameDetail = () => {
               </ul>
             </div>
             <img src={game.image} alt={game.title} />
+            <div className="imgBack" />
           </div>
-          <div>
+          <div className="info">
             <ul key={game.id}>
               <li>
                 PLATHPHORMS:

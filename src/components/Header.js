@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { BiArrowBack } from 'react-icons/bi';
 
 const Header = () => (
-  <header>
+  <header className="arrowBack">
     <NavLink to="/">
       <div>
         <BiArrowBack />
