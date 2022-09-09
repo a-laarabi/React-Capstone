@@ -1,14 +1,8 @@
 .content {
-
-  /* still need to work on this */
-
-  position: absolute;
-  top: 60%;
-
-
-
   display: grid;
   grid-template-columns: auto auto;
+  position: absolute;
+  top: 40%;
 }
 
 .gameItem {
@@ -41,13 +35,13 @@
   padding: 20% 4%;
 }
 
+.cardInfo ul li {
+  font-size: 12px;
+  color: rgb(193, 194, 196);
+}
+
 .cardInfo ul li:first-child {
   font-weight: bold;
   font-size: 15px;
   color: #fff;
-}
-
-.cardInfo ul li {
-  font-size: 12px;
-  color: rgb(193, 194, 196);
 }

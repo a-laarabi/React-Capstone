@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Missions components Check if the Missions section are available 1`] = `
+<div
+  className="content"
+>
+  <div>
+    <h1>
+      Loading..
+    </h1>
+  </div>
+</div>
+`;
