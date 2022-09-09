@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 40%;
   background: #1d1d1d;
   mix-blend-mode: overlay;
 }
@@ -12,6 +13,7 @@
   text-align: center;
   color: #fff;
   font-family: 'Ms Madi', cursive;
+  position: relative;
 }
 
 .homeHeader video {

@@ -4,7 +4,7 @@ import axios from 'axios';
 import types from './actionTypes';
 
 const URL = 'https://api.rawg.io/api';
-const API_KEY = '25d606d1a12248e1beff62391547826a';
+const API_KEY = '6b2632491420425bb6bc1bfb81341be8';
 
 export const setGames = createAsyncThunk(types.SET_GAMES,
   async () => {

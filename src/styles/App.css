@@ -1,14 +1,8 @@
 .content {
-
-  /* still need to work on this */
-
-  position: absolute;
-  top: 60%;
-
-
-
   display: grid;
   grid-template-columns: auto auto;
+  position: absolute;
+  top: 40%;
 }
 
 .gameItem {
