@@ -4,18 +4,15 @@ import '../styles/HomeHeader.css';
 
 function HomeHeader() {
   return (
-    <div className="homeHeader">
+    <header className="homeHeader">
       <h1 className="Logo">Your New Game</h1>
-      <div className="search">
-        <input type="text" placeholder="Search..." />
-      </div>
       <ul className="headerInfo">
         <li className="headerInfo_Title">Watch Dogs</li>
         <li>Action-aventure</li>
         <li>2014-05-27</li>
       </ul>
       <video src={videoWatch} muted loop autoPlay />
-    </div>
+    </header>
   );
 }
 

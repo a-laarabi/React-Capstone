@@ -1,56 +1,48 @@
-.homeHeader {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 40%;
-  background: #1d1d1d;
-  mix-blend-mode: overlay;
-}
+@media (max-width: 768px) {
+  .homeHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: #1d1d1d;
+    mix-blend-mode: overlay;
+  }
 
-.Logo {
-  margin-top: 10px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Ms Madi', cursive;
-  position: relative;
-}
+  .Logo {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Ms Madi', cursive;
+    position: relative;
+  }
 
-.homeHeader video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-  opacity: 0.6;
-}
+  .homeHeader video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.6;
+  }
 
-.homeHeader .search input {
-  width: 70%;
-  margin-top: 40px;
-  margin-left: 15%;
-  border-radius: 10px;
-  padding: 5px;
-  color: #fff;
-  background-color: #1d1d1d;
-}
+  .headerInfo {
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
 
-.headerInfo {
-  color: #fff;
-  margin-top: 40px;
-  margin-left: 40px;
-  padding-bottom: 30px;
-}
+  .headerInfo li {
+    font-size: 12px;
+    color: rgb(193, 194, 196);
+  }
 
-.headerInfo li {
-  font-size: 12px;
-  color: rgb(193, 194, 196);
-}
-
-.headerInfo li:first-child {
-  font-weight: bold;
-  font-size: 30px;
-  color: #fff;
+  .headerInfo li:first-child {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+  }
 }

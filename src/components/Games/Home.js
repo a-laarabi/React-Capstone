@@ -1,20 +1,34 @@
 /* eslint-disable no-nested-ternary */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setGames } from '../../redux/actions';
 import GamesItem from './GameItem';
 
 const Games = () => {
+  const [search, setSearch] = useState('');
+  const [loading, setLoading] = useState(true);
   const games = useSelector((state) => state.games);
   const dispatch = useDispatch();
-  dispatch(setGames());
 
-  const filteredGames = games.filter((game) => game.title.toLowerCase());
+  useEffect(() => {
+    dispatch(setGames());
+    setLoading(false);
+  }, []);
+
+  const handleChange = (e) => {
+    setSearch(e.target.value);
+  };
+  const filteredGames = games.filter((game) => game.title.toLowerCase()
+    .includes(search.toLowerCase()));
 
   return (
     <>
+      <div className="search">
+        <input type="text" placeholder="Search..." onChange={handleChange} value={search} />
+      </div>
       <div className="content">
         {
+          !loading ? (
             filteredGames.length > 0 ? (
               filteredGames.map((game) => (
                 <GamesItem
@@ -28,9 +42,15 @@ const Games = () => {
               ))
             ) : (
               <div>
-                <h1>Loading..</h1>
+                <h1>There is no game</h1>
               </div>
             )
+          ) : (
+            <div className="spinner-border text-primary" role="status">
+              <span className="sr-only">Loading...</span>
+            </div>
+
+          )
           }
       </div>
     </>

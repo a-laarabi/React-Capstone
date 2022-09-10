@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the components Check if the HomeHeader.js file's section are available 1`] = `
+<header
+  className="homeHeader"
+>
+  <h1
+    className="Logo"
+  >
+    Your New Game
+  </h1>
+  <ul
+    className="headerInfo"
+  >
+    <li
+      className="headerInfo_Title"
+    >
+      Watch Dogs
+    </li>
+    <li>
+      Action-aventure
+    </li>
+    <li>
+      2014-05-27
+    </li>
+  </ul>
+  <video
+    autoPlay={true}
+    loop={true}
+    muted={true}
+    src="Watch_Dogs2-Trailer.mp4"
+  />
+</header>
+`;
