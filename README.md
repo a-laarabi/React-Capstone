@@ -25,7 +25,7 @@ This website is a web application that provide the data for the newest game in t
 
 ## Getting Started
 
-> To successfully utilize this project first of all you need to clone or download the repository.
+> To successfully utilize this project first of all you need to clone or download the repository, Then to run it locally you need to follow the steps below.
 
 ### Install the dependencies
 
