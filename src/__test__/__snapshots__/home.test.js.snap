@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Missions components Check if the Missions section are available 1`] = `
+Array [
+  <div
+    className="search"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+  </div>,
+  <div
+    className="content"
+  >
+    <div
+      className="spinner-border text-primary"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>,
+]
+`;

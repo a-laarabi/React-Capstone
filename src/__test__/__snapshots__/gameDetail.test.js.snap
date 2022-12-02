@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the components Check if the GameDetail.js file's section are available 1`] = `
+<div
+  className="spinner-border text-primary"
+  role="status"
+>
+  <span
+    className="sr-only"
+  >
+    Loading...
+  </span>
+</div>
+`;
